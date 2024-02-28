@@ -34,6 +34,7 @@
 .allProductImage{
   width: 70%;
   margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 .allProductImage > img {
   width: 100%;
@@ -68,3 +69,8 @@
   }
 }
 
+@media (max-width : 600px){
+ .allProductImage{
+  width: 90%;
+ }
+}
